@@ -20,7 +20,7 @@ Para evitar que seu código receba atualizações automáticas do modulo, é pre
 
 ```hcl
 module "app_sec_group" {
-  source   = "git::https://timbrasil@dev.azure.com/timbrasil/Projeto_IaC/_git/azr-network/modulo-app-sec-group.git?ref=v1.0.0"
+  source   = "git::https://github.com/mgsj2006/azurerm-module-app-sec-group.git?ref=v0.1.0"
   groups   = ["group-1", group-2"]
   location = "brazilsouth"
   rg_name  = "resource_group_name"
